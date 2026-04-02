@@ -4,10 +4,10 @@ import sys
 class NineLives:
     def __init__(self):
         self.word_list = [
-            "PYTHON", "PROGRAMMING", "DEVELOPER", "COMPUTER", "ALGORITHM",
-            "FUNCTION", "VARIABLE", "DICTIONARY", "DATABASE", "NETWORK",
-            "SECURITY", "APPLICATION", "INTERFACE", "SOFTWARE", "HARDWARE",
-            "JAVASCRIPT", "TERMINAL", "COMMAND", "PROCESSOR", "MEMORY"
+            "Elephant", "Lioness", "Leopard", "Giraffe", "Hippopotamus",
+            "Chickens", "Dolphins", "Whale", "Kangaroo", "Baboon",
+            "Rhinoceros", "Peacock", "Crocodile", "Cheetah", "Hyena",
+            "Tortoise", "Chameleon", "Octopus", "Jellyfish", "Eagle"
         ]
         self.secret_word = ""
         self.hidden_word = []
