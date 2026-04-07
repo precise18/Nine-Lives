@@ -4,12 +4,6 @@ import sys
 class NineLives:
     def __init__(self):
         self.word_list = [
-<<<<<<< HEAD
-            "Elephant", "Lioness", "Leopard", "Giraffe", "Hippopotamus",
-            "Chickens", "Dolphins", "Whale", "Kangaroo", "Baboon",
-            "Rhinoceros", "Peacock", "Crocodile", "Cheetah", "Hyena",
-            "Tortoise", "Chameleon", "Octopus", "Jellyfish", "Eagle"
-=======
             # Animals
             "CAT", "DOG", "COW", "PIG", "DUCK", "FISH", "BIRD", "FROG",
             "LION", "BEAR", "TIGER", "ZEBRA", "MONKEY", "RABBIT", "MOUSE",
@@ -34,7 +28,6 @@ class NineLives:
             # Actions
             "RUN", "JUMP", "SING", "DANCE", "READ", "WRITE", "EAT", "SLEEP",
             "LAUGH", "CRY", "SMILE", "PLAY", "WORK", "STUDY"
->>>>>>> b585c86 (Changed some words and concepts)
         ]
         self.secret_word = ""
         self.hidden_word = []
