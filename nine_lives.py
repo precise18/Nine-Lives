@@ -353,6 +353,7 @@ class NineLives:
         self.lives = 9
         self.guessed_letters = set()
         self.choose_word()
+        
 
 
 class NineLivesEasyMode(NineLives):
