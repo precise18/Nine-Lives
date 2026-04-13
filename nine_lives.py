@@ -15,8 +15,12 @@ class NineLives:
             
             # Food
             "CAKE", "MILK", "BREAD", "RICE", "SOUP", "EGGS", "MEAT",
-            "APPLE", "MANGO", "GRAPE", "LEMON", "HONEY", "PIZZA", "BURGER",
+            "APPLE", "MANGO", "GRAPE", "LEMON", "HONEY", "PIZZA", "BURGER" ,"MOGODU",
             
+                
+
+
+
             # Nature
             "SUN", "MOON", "STAR", "SKY", "CLOUD", "RAIN", "SNOW",
             "WIND", "TREE", "FLOWER", "GRASS", "LEAF", "ROCK", "OCEAN",
