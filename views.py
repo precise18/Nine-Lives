@@ -1,7 +1,6 @@
 """View layer - handles all display and user input"""
 
-from art import get_hangman_art
-from welcome_screen import show_welcome  # Import the new welcome screen
+from art import get_hangman_art, display_title
 
 class GameView:
     """Handles all display and user interaction"""
@@ -9,9 +8,8 @@ class GameView:
     @staticmethod
     def show_welcome():
         """Display welcome screen"""
-        show_welcome()  # This now calls your pink Option 3 screen
+        display_title()
     
-    # Rest of your GameView class remains exactly the same...
     @staticmethod
     def show_difficulty_menu():
         """Display difficulty selection menu"""

@@ -99,18 +99,25 @@ def get_hangman_art(lives_remaining, max_lives):
     return HANGMAN_STAGES[stage_index]
 
 def display_title():
-    """Display game title art"""
-    print("""
-╔═══════════════════════════════════════╗
-║        🐱  NINE LIVES  🐱             ║
-║                                       ║
-║   A word guessing game where you      ║
-║   have 9 lives to guess the secret    ║
-║   word. Each wrong letter costs 1     ║
-║   life. Wrong word costs 2 lives!     ║
-║                                       ║
-║   Type 'hint' for a helpful clue!     ║
-║                                       ║
-║   Can you save the cat? 🐱❤️          ║
-╚═══════════════════════════════════════╝
+    """Display simple pink welcome screen"""
+    PINK = '\033[95m'
+    HOT_PINK = '\033[91m'
+    RESET = '\033[0m'
+    BOLD = '\033[1m'
+    
+    print(f"""
+{HOT_PINK}╔════════════════════════════════════════╗
+║                                            ║
+║     {PINK}🐱 {BOLD}WELCOME TO NINE LIVES{PINK} 🐱     {RESET}{HOT_PINK}║
+║                                            ║
+║     {RESET}A word guessing game with a twist      {HOT_PINK}║
+║                                            ║
+║     {PINK}❤️  {RESET}Lives: {BOLD}9{HOT_PINK}                    {PINK}❤️  {RESET}{HOT_PINK}║
+║     {PINK}💀  {RESET}Wrong letter: {BOLD}-1 life{HOT_PINK}        {PINK}💀  {RESET}{HOT_PINK}║
+║     {PINK}⚠️  {RESET}Wrong word: {BOLD}-2 lives{HOT_PINK}        {PINK}⚠️  {RESET}{HOT_PINK}║
+║     {PINK}💡  {RESET}Type {BOLD}'hint'{RESET} for a clue{HOT_PINK}       {PINK}💡  {RESET}{HOT_PINK}║
+║                                            ║
+║     {PINK}🎀  Good luck and have fun!  🎀{HOT_PINK}     ║
+║                                            ║
+╚════════════════════════════════════════════╝{RESET}
     """)
