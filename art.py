@@ -1,4 +1,4 @@
-"""ASCII art and visual elements for the game"""
+""" art and visual elements for the game"""
 
 HANGMAN_STAGES = [
     """
